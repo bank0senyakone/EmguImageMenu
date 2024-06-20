@@ -13,6 +13,10 @@ using Emgu.CV.CvEnum;
 using Emgu.CV.Structure;
 using Emgu.Util;
 
+
+
+//hi hihihihihihihihihihihi
+
 namespace EmguImageMenu
 {
     public partial class Histogram_Equalization_and_Image_Filtering : Form
@@ -24,6 +28,8 @@ namespace EmguImageMenu
         Image<Gray,byte>imgBeforeE,imgAfterE;
         Image<Gray, byte> imgFilter;
 
+
+        int hi = 101;
 
         private void btnLoadImage_Click(object sender, EventArgs e)
         {
