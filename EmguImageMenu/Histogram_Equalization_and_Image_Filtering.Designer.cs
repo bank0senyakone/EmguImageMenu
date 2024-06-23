@@ -187,6 +187,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1029, 715);
             this.Controls.Add(this.htg3);
             this.Controls.Add(this.imagebox3);
@@ -196,6 +197,7 @@
             this.Controls.Add(this.imageBoxoutput);
             this.Controls.Add(this.imageBoxinput);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Histogram_Equalization_and_Image_Filtering";
             this.Text = "Histogram_Equalization_and_Image_Filtering";

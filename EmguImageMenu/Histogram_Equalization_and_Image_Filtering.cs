@@ -76,7 +76,7 @@ namespace EmguImageMenu
 
         private void btnMedian_Click(object sender, EventArgs e)
         {
-            imgFilter = new Image<Gray, byte>(im)
+           // imgFilter = new Image<Gray, byte>(im)
         }
 
         private void htgBeforeE_Load(object sender, EventArgs e)

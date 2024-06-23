@@ -16,7 +16,7 @@ namespace EmguImageMenu
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Histogram_Equalization_and_Image_Filtering());
+            Application.Run(new Main());
         }
     }
 }
